@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "colors": "^1.4.0",
     "dotenv": "^9.0.2",
     "inquirer": "^8.0.0"
