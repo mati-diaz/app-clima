@@ -1,7 +1,12 @@
+const fs = require('fs');
 require('dotenv').config();
 
 const { leerInput, inquirerMenu, pausa, listarLugares } = require("./helpers/inquirer");
 const Busquedas = require("./models/busquedas");
+
+if (!fs.existsSync('./db')) {
+    fs.mkdirSync('./db');
+}
 
 const main = async() => {
 
